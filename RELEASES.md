@@ -1,3 +1,5 @@
+lp-dp 2023-08-02T01:57:46 for EON/C2
+
 Version 0.9.4 (2023-XX-XX)
 ========================
 * Navigate on openpilot
