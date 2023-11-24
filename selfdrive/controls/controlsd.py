@@ -98,7 +98,7 @@ class Controls:
     self._dp_alka_btn_block_frame = 0
     self.dp_device_disable_temp_check = self.params.get_bool("dp_device_disable_temp_check")
     self._dp_vag_timebomb_bypass_counter = 0
-    self._dp_vag_timebomb_bypass = self.params.get_bool("dp_vag_timebomb_bypass")
+    self._dp_vag_timebomb_bypass = True
     self.sm = sm
     if self.sm is None:
       ignore = ['testJoystick']
