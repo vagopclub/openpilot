@@ -121,7 +121,7 @@ class CarController(CarControllerBase):
     if self.dp_vag_sng:
       if self.CP.pcmCruise and CS.gra_stock_values["COUNTER"] != self.gra_acc_counter_last:
         standing_resume_spam = CS.out.standstill
-        spam_window = self.frame % 50 < 15
+        spam_window = self.frame % 50 < 10
 
         send_cancel = CC.cruiseControl.cancel
         send_resume = CC.cruiseControl.resume or (standing_resume_spam and spam_window)
